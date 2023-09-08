@@ -24,7 +24,7 @@ $response = array(
     "current_day" => $currentDayOfWeek,
     "utc_time" => $currentUtcTime,
     "track" => $track,
-    "github_file_url" => "https://github.com/TheMaxwellJames/HNG_API_Test1/blob/main/endpoint.php",
+    "github_file_url" => "https://github.com/TheMaxwellJames/HNG_API_Test1/blob/main/index.php",
     "github_repo_url" => "https://github.com/TheMaxwellJames/HNG_API_Test1",
     "status_code" => 200
 );
