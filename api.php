@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 // Set the Slack name to "Maxwell_James"
-$slackName = "Maxwell_James";
+$slackName = isset($_GET['slack_name']) ? $_GET['slack_name'] : '';
 $track = isset($_GET['track']) ? $_GET['track'] : '';
 
 // Validate the track parameter
